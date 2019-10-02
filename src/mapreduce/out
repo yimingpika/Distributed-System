@@ -1,0 +1,65 @@
+2019/04/28 10:06:50 rpc.Register: method "CleanupFiles" has 1 input parameters; needs exactly three
+2019/04/28 10:06:50 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/04/28 10:06:50 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+2019/04/28 10:06:50 rpc.Register: method "Wait" has 1 input parameters; needs exactly three
+/var/tmp/824-501/mr918-master: Starting Map/Reduce task test
+2019/04/28 10:06:50 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/04/28 10:06:50 rpc.Register: method "Lock" has 1 input parameters; needs exactly three
+2019/04/28 10:06:50 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+mapFiles =>  [824-mrinput-0.txt 824-mrinput-1.txt 824-mrinput-2.txt 824-mrinput-3.txt 824-mrinput-4.txt 824-mrinput-5.txt 824-mrinput-6.txt 824-mrinput-7.txt 824-mrinput-8.txt 824-mrinput-9.txt 824-mrinput-10.txt 824-mrinput-11.txt 824-mrinput-12.txt 824-mrinput-13.txt 824-mrinput-14.txt 824-mrinput-15.txt 824-mrinput-16.txt 824-mrinput-17.txt 824-mrinput-18.txt 824-mrinput-19.txt]
+2019/04/28 10:06:50 rpc.Register: method "Unlock" has 1 input parameters; needs exactly three
+nReduce =>  10
+phase =>  mapPhase
+registerChan =>  0xc00027a000
+Schedule: 20 mapPhase tasks (10 I/Os)
+file name =>  824-mrinput-5.txt
+file name =>  824-mrinput-7.txt
+file name =>  824-mrinput-13.txt
+file name =>  824-mrinput-15.txt
+file name =>  824-mrinput-3.txt
+file name =>  824-mrinput-4.txt
+file name =>  824-mrinput-2.txt
+file name =>  824-mrinput-0.txt
+file name =>  824-mrinput-16.txt
+file name =>  824-mrinput-11.txt
+file name =>  824-mrinput-17.txt
+Schedule: mapPhase done
+file name =>  824-mrinput-12.txt
+file name =>  824-mrinput-19.txt
+file name =>  824-mrinput-10.txt
+file name =>  824-mrinput-9.txt
+file name =>  824-mrinput-8.txt
+file name =>  824-mrinput-18.txt
+file name =>  824-mrinput-6.txt
+file name =>  824-mrinput-14.txt
+file name =>  824-mrinput-1.txt
+mapFiles =>  [824-mrinput-0.txt 824-mrinput-1.txt 824-mrinput-2.txt 824-mrinput-3.txt 824-mrinput-4.txt 824-mrinput-5.txt 824-mrinput-6.txt 824-mrinput-7.txt 824-mrinput-8.txt 824-mrinput-9.txt 824-mrinput-10.txt 824-mrinput-11.txt 824-mrinput-12.txt 824-mrinput-13.txt 824-mrinput-14.txt 824-mrinput-15.txt 824-mrinput-16.txt 824-mrinput-17.txt 824-mrinput-18.txt 824-mrinput-19.txt]
+nReduce =>  10
+phase =>  reducePhase
+registerChan =>  0xc0003c0000
+Schedule: 10 reducePhase tasks (20 I/Os)
+file name =>  824-mrinput-3.txt
+Schedule: reducePhase done
+file name =>  824-mrinput-12.txt
+file name =>  824-mrinput-5.txt
+file name =>  824-mrinput-6.txt
+file name =>  824-mrinput-0.txt
+file name =>  824-mrinput-2.txt
+file name =>  824-mrinput-1.txt
+file name =>  824-mrinput-8.txt
+file name =>  824-mrinput-16.txt
+file name =>  824-mrinput-19.txt
+file name =>  824-mrinput-15.txt
+file name =>  824-mrinput-4.txt
+file name =>  824-mrinput-7.txt
+file name =>  824-mrinput-9.txt
+file name =>  824-mrinput-14.txt
+file name =>  824-mrinput-11.txt
+file name =>  824-mrinput-17.txt
+file name =>  824-mrinput-13.txt
+file name =>  824-mrinput-10.txt
+file name =>  824-mrinput-18.txt
+Merge: read mrtmp.test-res-0
+2019/04/28 10:06:50 Merge: open mrtmp.test-res-0: no such file or directory
+exit status 1
+FAIL	_/Users/cathylin/Desktop/CS-345/Project1/src/mapreduce	0.029s
